@@ -170,7 +170,7 @@ const projects = [
       { name: "gpt", color: "green-text-gradient" },
     ],
     image: feynman,
-    source_code_link: "https://github.com/",
+    source_code_link: " https://github.com/neelam682/sirrion-clean-2.git",
   },
   {
     name: "AutoForm AI",
