@@ -161,6 +161,19 @@ const experiences = [
 
 const projects = [
   {
+    name: "SaaS Cloner",
+    description:
+      "A modern web template that lets users clone beautiful SaaS websites with custom content. Built using React, TailwindCSS, and Vite for lightning-fast performance and sleek design.",
+    tags: [
+      { name: "react", color: "blue-text-gradient" },
+      { name: "vite", color: "purple-text-gradient" },
+      { name: "tailwind", color: "pink-text-gradient" },
+    ],
+    image: saascloner,
+    source_code_link: "https://github.com/neelam682/saascloner",
+  },
+
+  {
     name: "FeynmanGPT",
     description:
       "An AI tutor that explains complex physics using Feynman’s technique. Built with React, GPT-4 API, and Firebase Auth.",
@@ -176,7 +189,7 @@ const projects = [
     name: "AutoForm AI",
     description:
       "Smart form-filler that remembers user data and automatically fills applications. Uses React, Context API, and local storage.",
-     tags: [
+    tags: [
       { name: "react", color: "blue-text-gradient" },
       { name: "context-api", color: "pink-text-gradient" },
       { name: "localstorage", color: "green-text-gradient" },
@@ -184,18 +197,7 @@ const projects = [
     image: autoform,
     source_code_link: "https://github.com/neelam682/autoform-ai.git",
   },
-  {
-    name: "Resume Checker",
-    description:
-      "Tool that analyzes your resume using GPT and gives job-matching feedback. Built for job seekers using React + OpenAI.",
-     tags: [
-      { name: "gpt", color: "green-text-gradient" },
-      { name: "react", color: "blue-text-gradient" },
-    ],
 
-    image: tripguide,
-    source_code_link: "https://github.com/",
-  },
 ];
 
-export { services, technologies, experiences,  projects };
+export { services, technologies, experiences, projects };
