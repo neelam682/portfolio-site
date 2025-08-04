@@ -1,4 +1,5 @@
 import {
+  rsumid,
   saascloner,
   mobile,
   backend,
@@ -198,6 +199,20 @@ const projects = [
     image: autoform,
     source_code_link: "https://github.com/neelam682/autoform-ai.git",
   },
+  {
+    name: "Improved Resume Builder",
+    description:
+      "A smart resume builder that helps users create professional, AI-optimized resumes with real-time analysis. Built using React, TailwindCSS, TypeScript, and Puter.js, it features secure in-browser authentication, resume upload, and personalized feedback—all with a sleek, modern UI and responsive design.",
+    tags: [
+      { name: "react", color: "blue-text-gradient" },
+      { name: "typescript", color: "green-text-gradient" },
+      { name: "tailwind", color: "pink-text-gradient" },
+      { name: "puter.js", color: "purple-text-gradient" },
+    ],
+    image: rsumid,
+    source_code_link: "https://github.com/neelam682/imporved-rsume-builder",
+  },
+
 
 ];
 

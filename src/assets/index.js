@@ -8,6 +8,7 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 import autoform from "./autoform.png";
 import feynman from "./feynman.png";
+import rsumid from "./rsumid.png";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -34,6 +35,7 @@ import tripguide from "./tripguide.png";
 import saascloner from "./saascloner.png";
 
 export {
+  rsumid,
   saascloner,
   autoform,
   logo,
